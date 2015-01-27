@@ -1,0 +1,6 @@
+insert into course values('great','CS1100')
+insert into course values('easy','CS1101')
+insert into course values('medium','CS2110')
+insert into course values('funny','CS2112')
+insert into course values('hard','CS2121')
+insert into course values('funny','CS3110')

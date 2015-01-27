@@ -1,0 +1,7 @@
+create table course(quality int(10), name varchar(6))
+insert into course values('3','CS1100')
+insert into course values('4','CS1101')
+insert into course values('5','CS2110')
+insert into course values('5','CS2112')
+insert into course values('4','CS2121')
+insert into course values('4','CS3110')

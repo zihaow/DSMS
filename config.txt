@@ -1,0 +1,5 @@
+db DalRate
+init initial.txt
+usr1 usr1.txt
+usr2 usr2.txt
+clean 60
