@@ -11,7 +11,7 @@ C files
   It also allows users to insert data to database and users can also read the content of the database by entering 
   different SQL commands. However, users can insert data to database if and only if when they logged in to the 
   terminal, they change the mode of the database, otherwise they will get an error message of “read-only”. 
-  They will need to enter the following command in order to insert data to the database: “chmod 777 <db.folder>”.
+  They will need to enter the following command in order to insert data to the database: “chmod 777 db.folder”.
 
 TXT files. (optional files for execution)
 -	config.txt: information required to set up the database.
