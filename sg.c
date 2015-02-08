@@ -11,10 +11,10 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include "string.h"
-#include <sqlite3.h>
+#include "sqlite3.h"
 
 int main(int argc, char **argv){
-
+    
     //set the data_periodicity
     int data_period = 0;
     data_period = atoi(argv[2]);
