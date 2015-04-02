@@ -1,11 +1,11 @@
-//  class name: stream generator
-//  class: sg.c
-//  
-//
-//  Created by Zihao Wu on 2015-01-19.
-//
-//
-
+/* ========================================================================
+ * sg.c
+ * ========================================================================
+ * class name: stream generator
+ * ========================================================================
+ * Copyright 2013-2015 Zihao Wu.
+ * Licensed under MIT (https://github.com/zihaow/DSMS/blob/master/LICENSE )
+ */
 #include <signal.h>
 #include <stdio.h>
 #include <unistd.h>
