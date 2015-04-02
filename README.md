@@ -58,3 +58,6 @@ One MakeFile: to compile programs before execution.
 To execute the systems, first execute dsms by entering “./dsms config.txt”, then uses “ps” to get the process 
   id of dsms, then opens a new terminal window, 
   type in “./sg <inputFile> <data_period> <outputFile> <interrupt_number> <process_ID_of DSMS>.
+  
+LICENSE
+Licensed under MIT: (http://opensource.org/licenses/MIT)
