@@ -1,7 +1,10 @@
-/*
+/* ========================================================================
  * dsms.c
+ * ========================================================================
  * handling data input from stream generator.
- * Created by Zihao Wu on 2015-01-19.
+ * ========================================================================
+ * Copyright 2013-2015 Zihao Wu.
+ * Licensed under MIT (https://github.com/zihaow/DSMS/blob/master/LICENSE )
  */
 
 #include <pthread.h>
