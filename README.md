@@ -13,14 +13,14 @@
 -sg.txt: testing results and demonstration of sg.c working process.
 -makeFile: to compile programs before execution.
 
-##To execute the systems, first execute dsms by entering “./dsms config.txt”, then uses “ps” to get the process id of dsms, then opens a new terminal window, type in “./sg <inputFile> <data_period> <outputFile> <interrupt_number> <process_ID_of DSMS>.
+##To execute the system
+First execute dsms by entering “./dsms config.txt”, then uses “ps” to get the process id of dsms, then opens a new terminal window, type in “./sg <inputFile> <data_period> <outputFile> <interrupt_number> <process_ID_of DSMS>.
 
 ##To begin a continuous query:
 - Example: 
 - > every 20 format csv to sum1.txt report select * from course
 - > every 15 format fixed-width to sum2.txt report select * from course
 - > every 5 format key-pairs to sum3.txt report select * from course
-
 - > stop 1 (will stop thread 1, including query and formatter thread.)
 - > quit (this will exit the DSMS system)
 
