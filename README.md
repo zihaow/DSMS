@@ -13,7 +13,7 @@
 -sg.txt: testing results and demonstration of sg.c working process.
 -makeFile: to compile programs before execution.
 
-##To execute the system
+##To execute the systems
 First execute dsms by entering “./dsms config.txt”, then uses “ps” to get the process id of dsms, then opens a new terminal window, type in “./sg <inputFile> <data_period> <outputFile> <interrupt_number> <process_ID_of DSMS>.
 
 ##To begin a continuous query:
@@ -24,9 +24,5 @@ First execute dsms by entering “./dsms config.txt”, then uses “ps” to ge
 - > stop 1 (will stop thread 1, including query and formatter thread.)
 - > quit (this will exit the DSMS system)
 
-##To execute the systems, first execute dsms by entering “./dsms config.txt”, then uses “ps” to get the process 
-  id of dsms, then opens a new terminal window, 
-  type in “./sg <inputFile> <data_period> <outputFile> <interrupt_number> <process_ID_of DSMS>.
-  
 - LICENSE
 - Licensed under MIT: (http://opensource.org/licenses/MIT)
